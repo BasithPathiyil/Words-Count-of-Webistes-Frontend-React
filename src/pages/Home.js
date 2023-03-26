@@ -95,7 +95,7 @@ function Home() {
           )}
         </Grid>
       </Grid>
-      <Grid container>
+      <Grid container marginTop={5}>
         {islOggedIn ? (
           <PreviousInsights
             refresh={count}
@@ -103,7 +103,7 @@ function Home() {
             emailId={islOggedIn}
           />
         ) : (
-          ""
+          "Login to see your previous search histories and detailed Insights"
         )}
       </Grid>
     </>
